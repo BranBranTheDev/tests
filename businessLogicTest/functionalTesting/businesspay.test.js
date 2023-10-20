@@ -1,6 +1,6 @@
 import * as matchers from 'jest-extended';
 import BusinesspayApi from '../../src/API/businesspayApi';
-import { createPlaidToken } from '../../src/shared/createPlaidPublicToken';
+import { createPlaidToken } from '../../src/path/createPlaidPublicToken';
 import CustomerId from '../../src/API/customerId';
 expect.extend(matchers);
 

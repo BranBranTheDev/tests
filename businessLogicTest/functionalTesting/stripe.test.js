@@ -1,6 +1,6 @@
 import * as matchers from 'jest-extended';
 import StripeApi from '../../src/API/stripeApi';
-import { createPaymentId } from '../../src/shared/createpaymetid';
+import { createPaymentId } from '../../src/path/createpaymetid';
 import CustomerId from '../../src/API/customerId';
 expect.extend(matchers);
 
